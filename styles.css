@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+}
+
+.panel-container, .login-box, .dashboard, .about-box {
+  position: relative;
+  z-index: 2;
+  margin-top: 10%;
+}
+
+.panel-title {
+  font-size: 2.5rem;
+}
+
+.btn {
+  background: #5c6bc0;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.btn:hover {
+  background: #7986cb;
+}
+
+.btn.danger {
+  background: #e53935;
+}
